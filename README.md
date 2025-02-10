@@ -27,12 +27,7 @@ After exploring the data, I resampled the data to include the number of reported
 # Modeling
 <img src="images/random_forest_predictions.png" style="height:300px">
 
-The final model to predict daily crime incidents in New York City is a **Random Forest Regressor** with the following parameters:
-`n_estimators`: 150 
-`min_samples_split`: 2
-`min_samples_leaf`: 4
-`max_features`: 'log2'
-`max_depth`: 10
+The final model to predict daily crime incidents in New York City is a **Random Forest Regressor** with the following parameters: `n_estimators`: 150, `min_samples_split`: 2, `min_samples_leaf`: 4, `max_features`: 'log2', `max_depth`: 10.
 
 # Evaluation
 **Metrics**:
